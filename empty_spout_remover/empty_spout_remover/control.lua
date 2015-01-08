@@ -1,4 +1,5 @@
 require "defines"
+
 local minDistance = 20 -- minimum blocks between two empty oil spouts
 local maxSpoutsInArea = 1
 local debugMode = true
@@ -12,7 +13,7 @@ end
 
 game.onevent(defines.events.onbuiltentity, function(event)
 	if(event.entity.name == string.match("^pumpjack")) then
-    glob.pumpjacks
+    --glob.pumpjacks
 	end
 end)
 
