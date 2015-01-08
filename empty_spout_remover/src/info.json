@@ -1,0 +1,9 @@
+{
+  "name": "Better Resources",
+  "version": "0.1",
+  "title": "Better Resources",
+  "author": "GeoStyx",
+  "homepage": "",
+  "dependencies": ["base"],
+  "description": "Just some custom resource things"
+}
