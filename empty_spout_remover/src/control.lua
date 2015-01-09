@@ -5,15 +5,11 @@ local maxSpoutsInArea = 1
 local debugMode = true
 local pumpIdTemplate = "p_I"
 
-function getPumpId(_p)
-
-end
-
 
 
 game.onevent(defines.events.onbuiltentity, function(event)
 	if(event.entity.name == string.match("^pumpjack")) then
-    --glob.pumpjacks
+    glob.pumpjacks
 	end
 end)
 
